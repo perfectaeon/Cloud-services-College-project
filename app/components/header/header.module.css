@@ -1,0 +1,79 @@
+.header {
+  font-family: GardensCM;
+}
+@media (width <=400px) {
+  .headertext {
+    padding: 0px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 32px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+
+    font: 200;
+    height: 10vh;
+    background-color: #fff;
+  }
+}
+@media (width <= 510px) and (width > 400px) {
+  .headertext {
+    padding: 0px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 32px;
+    /* border-right: 10px solid black; */
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    background-color: #fff;
+  }
+  .header p {
+    font-size: 40px;
+  }
+}
+@media (width > 510px) and (width <= 1440px) {
+    .headertext {
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-size: 32px;
+      }
+      .header {
+        display: flex;
+        justify-content: center;
+        height: 10vh;
+        background-color: #fff;
+      }
+      .header p {
+        font-size: 60px;
+      }
+}
+@media (width >= 1440px) {
+    .headertext {
+        padding: 0px 0px 0px 5px;
+        display: flex;
+    
+        align-items: center;
+        height: 100%;
+        font-size: 32px;
+        /* border-right: 10px solid black; */
+      }
+      .header {
+        display: flex;
+        justify-content: center;
+        height: 10vh;
+        background-color: #fff;
+        border-bottom: 2px solid black;
+      }
+      .header p {
+        font-size: 65px;
+      }
+
+}

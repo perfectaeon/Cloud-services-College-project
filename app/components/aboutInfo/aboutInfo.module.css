@@ -1,0 +1,65 @@
+@font-face {
+  font-family: ClearSans;
+  src: url(../../../public/fonts/20930.ttf);
+}
+.mainText {
+  font-family: ClearSans;
+}
+@media (width <=400px) {
+  .mainText {
+    display: flex;
+    justify-content: center;
+  }
+  .about-info {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    width: 100vw;
+    padding: 40px;
+  }
+}
+@media (width <= 510px) and (width > 400px) {
+  .mainText {
+    display: flex;
+    justify-content: center;
+  }
+  .about-info {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 34px;
+    width: 100vw;
+    padding: 40px 80px 40px 80px;
+  }
+}
+@media (width > 510px) and (width <= 1440px) {
+  .mainText {
+    display: flex;
+    justify-content: center;
+  }
+  .about-info {
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    font-size: 36px;
+    width: 80vw;
+    padding: 40px 70px 40px 70px;
+  }
+}
+@media (width >= 1440px) {
+  .mainText {
+    display: flex;
+    justify-content: center;
+  }
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 36px;
+    width: 80vw;
+    padding: 40px 80px 40px 100px;
+  }
+}

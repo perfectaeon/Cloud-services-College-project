@@ -1,0 +1,83 @@
+@font-face {
+    font-family: GardensCM;
+    src: url(../../../public/fonts/20011.ttf);
+  }
+.footer {
+    font-family: GardensCM;
+  }
+  @media (width <=400px) {
+    .footer {
+        display: flex;
+    
+        font: 200;
+        height: 10vh;
+        background-color: #fff;
+      }
+      .footertext {
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        font-size: 18px;
+      }
+  }
+  @media (width <= 510px) and (width > 400px) {
+    .footer {
+        display: flex;
+    
+        font: 200;
+        height: 10vh;
+    
+        background-color: #fff;
+      }
+      .footertext {
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-size: 22px;
+      }
+  }
+  @media (width > 510px) and (width <= 1440px) {
+    .footer {
+        display: flex;
+    
+        font: 200;
+        height: 10vh;
+    
+        background-color: #fff;
+      }
+      .footertext {
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-size: 32px;
+      }
+  }
+  @media (width >= 1440px) {
+    .footer {
+        display: flex;
+    
+        font: 200;
+        height: 10vh;
+    
+        background-color: #fff;
+      }
+      .footertext {
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-size: 32px;
+      }
+  }
