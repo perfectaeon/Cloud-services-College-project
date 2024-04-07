@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = () => {
+export const nextConfig = () => {
     return {
     output: "export",
 }
 };
-export default nextConfig;
+
 
 
 
