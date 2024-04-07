@@ -9,6 +9,7 @@
 
 .Linklinks {
   text-decoration: none;
+  color: black;
 }
 .Linklinks:visited {
   color: black;
