@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
-module.exports = () => {
+const nextConfig = () => {
     return {
-    basePath: "/Cloud-services-college-project",
     output: "export",
-    reactStrictMode: true,
+}
 };
-};
+export default nextConfig;
+
 
 
