@@ -7,6 +7,12 @@
   src: url(/public/fonts/20011.ttf);
 }
 
+.Linklinks {
+  text-decoration: none;
+}
+.Linklinks:visited {
+  color: black;
+}
 
 
 
