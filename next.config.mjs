@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = () => {
+module.exports = () => {
     return {
     basePath: "/Cloud-services-college-project",
     output: "export",
@@ -7,4 +7,4 @@ const nextConfig = () => {
 };
 };
 
-export default nextConfig;
+
