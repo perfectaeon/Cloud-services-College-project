@@ -2,7 +2,7 @@
   "name": "cloudtechnologiesindividualproject",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://perfectaeon.github.io/Cloud-services-College-project",
+  "homepage": ".",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
