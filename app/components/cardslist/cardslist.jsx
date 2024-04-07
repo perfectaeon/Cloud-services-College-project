@@ -8,16 +8,16 @@ export default function Cardslist() {
     <section className={Styles["ListWrapper"]}>
     <section className={Styles["CardsList"]}>
       
-    <Card imageLink ="Cloud-services-College-project/ms-onedrive.svg" name="Microsoft Onedrive"/>
+    <Card imageLink ="ms-onedrive.svg" name="Microsoft Onedrive"/>
     
-    <Card imageLink ="Cloud-services-College-project/googleworkspace.svg" name="Google Workspace"/>
+    <Card imageLink ="googleworkspace.svg" name="Google Workspace"/>
     <Link href={`../../servicespages/Youtube/page.js`} className="Linklinks">
-    <Card imageLink ="Cloud-services-College-project/youtube.svg" data={data} name="Youtube"/>
+    <Card imageLink ="youtube.svg" data={data} name="Youtube"/>
     </Link>
-    <Card imageLink ="Cloud-services-College-project/figma.svg" name="Figma"/>
-    <Card imageLink ="Cloud-services-College-project/github.svg" name="Github"/>
-    <Card imageLink ="Cloud-services-College-project/zoom.svg" name="Zoom"/>
-    <Card imageLink ="Cloud-services-College-project/gmail.svg" name="Gmail"/>
+    <Card imageLink ="figma.svg" name="Figma"/>
+    <Card imageLink ="github.svg" name="Github"/>
+    <Card imageLink ="zoom.svg" name="Zoom"/>
+    <Card imageLink ="gmail.svg" name="Gmail"/>
 </section>
 </section>
   )
