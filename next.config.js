@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
-export const nextConfig = () => {
-    return {
+ const nextConfig = {
     output: "export",
-}
-};
 
+};
+module.exports = nextConfig;
 
 
 
