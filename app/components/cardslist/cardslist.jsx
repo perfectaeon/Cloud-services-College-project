@@ -8,7 +8,7 @@ export default function Cardslist() {
     <section className={Styles["ListWrapper"]}>
     <section className={Styles["CardsList"]}>
       
-    <Card imageLink ="./Cloud-services-College-project/servicesimages/ms-onedrive.svg" name="Microsoft Onedrive"/>
+    <Card imageLink ="./Cloud-services-College-project/ms-onedrive.svg" name="Microsoft Onedrive"/>
     
     <Card imageLink ="googleworkspace.svg" name="Google Workspace"/>
     <Link href={`../../servicespages/Youtube/page.js`} className="Linklinks">
