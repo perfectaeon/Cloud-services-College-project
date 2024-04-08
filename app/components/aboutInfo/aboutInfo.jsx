@@ -1,5 +1,5 @@
 import React from 'react'
-import NetworkIcon from '../../../public/images/servicesimages/cloud-network-icon.svg'
+import NetworkIcon from './images/servicesimages/cloud-network-icon.svg'
 import Styles from "./aboutInfo.module.css"
 export default function AboutInfo() {
   return (
