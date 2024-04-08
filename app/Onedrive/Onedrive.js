@@ -1,4 +1,4 @@
-export default function OnedrivePage(props) {
+export default function OnedrivePage() {
     return (
         123
     )
