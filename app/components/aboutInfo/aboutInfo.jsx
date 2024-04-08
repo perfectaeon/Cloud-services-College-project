@@ -8,8 +8,8 @@ export default function AboutInfo() {
         <span>Облачными сервисами мы пользуемся каждый день</span>
             <section className={Styles["SvgIcons"]}>
         <img className={Styles["about-img"]} src='./images/cloud-network-icon.svg' alt="Облачные вычисления" />
-        <img className={Styles["about-img"]} src="/images/cloud-hosting-server-icon.svg" alt="Облачные вычисления" />
-        <img className={Styles["about-img"]} src="/images/cloud-protection-security-icon.svg" alt="Облачные вычисления" />
+        <img className={Styles["about-img"]} src="./images/cloud-hosting-server-icon.svg" alt="Облачные вычисления" />
+        <img className={Styles["about-img"]} src="./images/cloud-protection-security-icon.svg" alt="Облачные вычисления" />
         </section>
 
         </section>
