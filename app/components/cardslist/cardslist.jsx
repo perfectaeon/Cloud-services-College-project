@@ -8,7 +8,7 @@ export default function Cardslist() {
     <section className={Styles["ListWrapper"]}>
     <section className={Styles["CardsList"]}>
 
-                      <Link href="/Onedrive" className="LInklinks">
+                      <Link href="/Onedrive" className="Linklinks">
                     <Card imageLink ="./images/ms-onedrive.svg" name="Microsoft Onedrive"/>
                     </Link>
 
