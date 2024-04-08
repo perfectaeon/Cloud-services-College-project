@@ -11,7 +11,7 @@ export default function Cardslist() {
     <Card imageLink ="./images/ms-onedrive.svg" name="Microsoft Onedrive"/>
     
     <Card imageLink ="./images/googleworkspace.svg" name="Google Workspace"/>
-    <Link href={`./pages/Youtube/page.js`} className="Linklinks">
+    <Link href={`/Youtube`} className="Linklinks">
     <Card imageLink ="./images/youtube.svg" data={data} name="Youtube"/>
     </Link>
     <Card imageLink ="./images/figma.svg" name="Figma"/>
